@@ -41,7 +41,7 @@ const cards = document.getElementById("cards")
 
 function renderTours() {
     cards.innerHTML = ""
-    tours.forEach(tour => {
+    tours.forEach((tour) => {
         cards.innerHTML += `
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div class="p-5">
