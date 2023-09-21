@@ -1,7 +1,5 @@
 const { container } = require("postcss")
 
-
-
 let counter = 0
 let currentTourId
 let tours = [
@@ -12,7 +10,7 @@ let tours = [
         date: "Каждую среду, субботу и воскресение",
         time: "12:00",
         price: "1700 ₽",
-        image: "./trip-1.jpg",
+        image: require("/src/images/trip-1.jpg"),
         rating: 7.8,
     },
     {
@@ -22,7 +20,7 @@ let tours = [
         date: "Каждую субботу и воскресение",
         time: "07:00",
         price: "3000 ₽",
-        image: "./trip-2.jpg",
+        image: require("/src/images/trip-2.jpg"),
         rating: 8.9,
     },
     {
@@ -32,7 +30,7 @@ let tours = [
         date: "Каждый вторник и воскресение",
         time: "08:00",
         price: "2800 ₽",
-        image: "./trip-3.jpg",
+        image: require("/src/images/trip-3.jpg"),
         rating: 8.2,
     },
 ]
